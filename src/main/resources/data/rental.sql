@@ -1,7 +1,7 @@
 INSERT INTO RENTAL (car_id, customer_id, start_date, end_date, daily_rate)
 VALUES
-    (SELECT car_id from CAR where model = 'Altima', SELECT customer_id from CUSTOMER where name = 'Dave Dykes', '2024-01-01', '2024-01-08', 52.49),
-    (SELECT car_id from CAR where model = 'Phantom', SELECT customer_id from CUSTOMER where name = 'Bruce Wayne', '2023-11-01', '2024-01-01', 575.00),
+    (SELECT car_id from CAR where model = 'Altima', SELECT customer_id from CUSTOMER where name = 'Dave Dykes', '2024-01-01', '2025-01-08', 52.49),
+    (SELECT car_id from CAR where model = 'Phantom', SELECT customer_id from CUSTOMER where name = 'Bruce Wayne', '2023-11-01', '2023-01-01', 575.00),
     (SELECT car_id from CAR where model = 'Altima', SELECT customer_id from CUSTOMER where name = 'Dave Dykes', '2024-01-01', '2024-01-08', 52.49),
     (SELECT car_id from CAR where model = 'Rogue', SELECT customer_id from CUSTOMER where name = 'Bryan Hansen', '2024-01-01', '2024-01-08', 67.95),
     (SELECT car_id from CAR where model = 'E-Type', SELECT customer_id from CUSTOMER where name = 'David Beckham', '2023-11-10', '2023-11-12', 225.99),
